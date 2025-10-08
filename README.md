@@ -2,7 +2,7 @@ This project was developed as part of the Data and Information Quality course.
 The assignment required executing a complete Data Preparation Pipeline on an assigned dataset, following these steps:
 1. Data Profiling and Data Quality Assessment
 2. Data Cleaning
-  a. Data Transformation/Standardization (bringing everything to the same format, detecting and correcting typos, performing wrangling operations, etc.)
+  a. Data Transformation/Standardization (bringing everything to the same format, detecting and correcting typos, performing     wrangling operations, etc.)
   b. Error Detection and Correction (dealing with missing values and the detection and correction of potential outliers)
   c. Data Deduplication (detecting and handling non-exact duplicates)
 3. Data Analysis
@@ -16,12 +16,15 @@ The assignment required executing a complete Data Preparation Pipeline on an ass
 The project was mainly developed using the Python programming language and the pandas library for data manipulation and cleaning.
 Pandas was used to handle data profiling, transformation, standardization, and error correction tasks efficiently within the Data Preparation Pipeline.
 
-The dataset used in this project is: Comune-di-Milano-Attivita-commerciali-di-media-e-grande-distribuzione.csv
+The dataset used in this project is: Comune-di-Milano-Attivita-commerciali-di-media-e-grande-distribuzione.csv.
 It contains data about various commercial activities in the city of Milan, including the following columns:
 Settore Merceologico, Insegna, Ubicazione, Tipo Via, Via, Civico, Codice Via, ZD, Superficie vendita, Superficie altri usi, Superficie totale
 This dataset provides information about the different types of medium and large-scale commercial activities operating within the municipality of Milan.
 
-Project Files
+Project Files:
+
 DataQualityProject_Paoletti_Marino_Grassi.ipynb — main Jupyter Notebook containing the entire Data Preparation and Analysis pipeline.
+
 Comune-di-Milano-Attivita-commerciali-di-media-e-grande-distribuzione.csv — source dataset.
+
 Report/Project Report.pdf — final report describing the methodology and results.
